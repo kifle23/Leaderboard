@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader board</title>
+</head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <div class="main">
+        <section>
+            <div class="recent-scores">
+                <h2>Recent scores</h2>
+                <button>Refresh</button>
+            </div>
+            <div>
+                <table id="recent-scores"></table>
+            </div>
+        </section>
+        <section class="add-new" id="add-new-info">
+            <h2>Add your score</h2>
+            <form id="addForm" method="post">
+                <input type="text" id="name" placeholder="Your name" required />
+                <input type="number" id="score" placeholder="Your score" required />
+                <button id="submit-board" type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

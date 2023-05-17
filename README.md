@@ -13,7 +13,6 @@
     - [Run tests](#run-tests)
     - [:rocket: Live-Demo](#rocket-live-demo)
   - [:busts_in_silhouette: Authors](#busts_in_silhouette-authors)
-  - [:telescope: Future Features](#telescope-future-features)
   - [:handshake: Contributing](#handshake-contributing)
   - [:star:️ Show your support](#star️-show-your-support)
   - [:pray: Acknowledgments](#pray-acknowledgments)
@@ -85,10 +84,6 @@ Coming soon...
 - GitHub: [@kifle23](https://github.com/kifle23)
 - Twitter: [@kifle12](https://twitter.com/KifleHaile12)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kifle-haile-5a613761)
-
-## :telescope: Future Features
-
-- [ ] **[Coming soon...]**
 
 ## :handshake: Contributing
 

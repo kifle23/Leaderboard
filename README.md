@@ -1,7 +1,7 @@
 # :green_book: Table of Contents
 
 - [:green_book: Table of Contents](#green_book-table-of-contents)
-- [:book: [To Do list]](#book-to-do-list)
+- [:book: [Leaderboard]](#book-to-do-list)
   - [:hammer_and_wrench: Built With](#hammer_and_wrench-built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -19,9 +19,9 @@
   - [:pray: Acknowledgments](#pray-acknowledgments)
   - [📝 License <a name="license"></a>](#-license-)
 
-# :book: [To Do list]
+# :book: [Leaderboard]
 
-**[To Do list]** is an app used to create, manage, and complete tasks. It typically provides an interface for users to add, delete, and organize tasks as needed.
+**[Leaderboard]** website displays scores submitted by different players. It also allows you to submit your score. .
 
 ## :hammer_and_wrench: Built With
 
@@ -32,11 +32,9 @@ HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Data stored to local storage]**
 - **[- Follow JavaScript best practices.]**
 - **[- Set up using webpack.]**
 - **[- Dynamically modified the DOM and add basic events.]**
-- **[- Test Add and Delete item.]**
 
 ## :computer: Getting Started
 
@@ -52,8 +50,8 @@ Open Terminal & Clone this repository to your desired folder:
 
 ```sh
 cd <path-to-the-folder>
-git clone https://github.com/kifle23/To-Do-list.git
-cd To-Do-list
+git clone https://github.com/kifle23/Leaderboard.git
+cd Leaderboard
 code .
 ```
 
@@ -73,14 +71,12 @@ To run the project open the index.html file in your web browser or you can also 
 ### Run tests
 
 ```test
-npx eslint .
-npx hint .
-npm run test
+Coming soon...
 ```
 
 ### :rocket: Live-Demo
 
-- [Live-Demo](https://kifle23.github.io/To-Do-list/dist/)
+- Coming soon...
 
 ## :busts_in_silhouette: Authors
 
@@ -90,14 +86,9 @@ npm run test
 - Twitter: [@kifle12](https://twitter.com/KifleHaile12)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kifle-haile-5a613761)
 
-:bust_in_silhouette: **Wael Elsafty**
-
-- GitHub: [@waelelsafty07](https://github.com/waelelsafty07)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/waelelsafty07)
-
 ## :telescope: Future Features
 
-- [ ] **[Add a drag and drop]**
+- [ ] **[Coming soon...]**
 
 ## :handshake: Contributing
 

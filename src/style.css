@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-new {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 20px 15px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+}
+
+table {
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+}
+
+table:empty {
+  border: none;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 200px;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: rgba(128, 128, 128, 0.404);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+}
+
+::placeholder {
+  color: #000;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+button {
+  width: 100px;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: 900;
+  padding: 3px;
+  font-size: 20px;
+  box-shadow: 2px 4px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 10px;
+  border: 3px solid #000;
+  box-shadow: 1px 2px;
+  margin: 10px 15px;
+}

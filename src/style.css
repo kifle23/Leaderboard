@@ -28,13 +28,11 @@ body {
 
 h1 {
   font-size: 50px;
-  font-weight: 900;
   margin: 20px;
 }
 
 h2 {
   font-size: 40px;
-  font-weight: 700;
 }
 
 .recent-scores {

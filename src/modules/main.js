@@ -1,22 +1,21 @@
-const displayBoard = () => {
-  const form = document.getElementById('add-new-info');
-  const table = document.getElementById('recent-scores');
+import displayBoard from './view.js';
+import postScore from './postScoresAPI.js';
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const name = document.getElementById('name').value;
-    const score = document.getElementById('score').value;
+document.getElementById('btn-refresh').addEventListener('click', displayBoard);
 
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-          <td>"${name}" scored ${score}</td>
-        `;
-    table.appendChild(tr);
-
-    document.getElementById('name').value = '';
-    document.getElementById('score').value = '';
-  });
+const resetForm = () => {
+  document.getElementById('name').value = '';
+  document.getElementById('score').value = '';
 };
-displayBoard();
 
-export default displayBoard;
+const form = document.getElementById('add-new-info');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const score = document.getElementById('score').value;
+
+  postScore(name, score);
+  resetForm();
+});
+
+displayBoard();

@@ -33,7 +33,9 @@ HTML, CSS and Javascript
 
 - **[- Follow JavaScript best practices.]**
 - **[- Set up using webpack.]**
-- **[- Dynamically modified the DOM and add basic events.]**
+- [ ] **Fetch and disply players scores**
+- [ ] **Add a new player**
+- [ ] **Refresh the board content**
 
 ## :computer: Getting Started
 
@@ -65,12 +67,20 @@ code .
 
 ### Usage
 
-To run the project open the index.html file in your web browser or you can also open live server from the IDE.
+To run the project, execute the following command:
+
+```sh
+  npm run start
+```
 
 ### Run tests
 
-```test
-Coming soon...
+To run tests, run the following commands:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+  npx hint .
+  npx eslint .
 ```
 
 ### :rocket: Live-Demo

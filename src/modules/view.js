@@ -11,7 +11,7 @@ const displayBoard = async () => {
     scores.forEach((s) => {
       const tr = document.createElement('tr');
       tr.innerHTML = `
-          <td>"${s.user}" scored ${s.score} </td>
+          <td>${s.user} : ${s.score} </td>
         `;
       table.appendChild(tr);
     });

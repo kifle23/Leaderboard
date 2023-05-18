@@ -31,8 +31,8 @@ HTML, CSS and Javascript
 
 ### Key Features
 
-- **[- Follow JavaScript best practices.]**
-- **[- Set up using webpack.]**
+- [ ] **Follow JavaScript best practices.**
+- [ ] **Set up using webpack.**
 - [ ] **Fetch and disply players scores**
 - [ ] **Add a new player**
 - [ ] **Refresh the board content**
